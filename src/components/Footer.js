@@ -7,8 +7,8 @@ export class Footer extends Component {
             <MDBFooter className='text-center text-lg-left' bgColor='dark' color='light' >
             <div className='text-center p-3 ' >
               &copy; {new Date().getFullYear()} Copyright:{' '}
-              <a className='text-light' href='https://mdbootstrap.com/'>
-                MDBootstrap.com
+              <a className='text-light' href='https://jodjango.com/'>
+              jodjango.com
               </a>
             </div>
           </MDBFooter>
