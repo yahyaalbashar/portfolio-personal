@@ -32,10 +32,10 @@ export class Navigation extends Component {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Features</MDBNavbarLink>
+                <MDBNavbarLink href='#'>Articles</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
+                <MDBNavbarLink href='#'>Courses</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink href='#'>About</MDBNavbarLink>
@@ -44,8 +44,6 @@ export class Navigation extends Component {
           </div>
         </MDBContainer>
       </MDBNavbar>
-
- 
     </header>             
     </>
         )

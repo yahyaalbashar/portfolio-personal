@@ -5,7 +5,6 @@ import {
     MDBRow,
     MDBCard, 
     MDBCardBody, 
-    MDBCardTitle, 
     MDBCardText,
     MDBCardImage 
 } from 'mdb-react-ui-kit';
@@ -15,6 +14,7 @@ export class Header extends Component {
         return (
             <header>
                 <Navigation/>
+                {/* <NavSearch/> */}
                 <div className='p-5 text-center navy'>
                     <MDBRow>
                         <MDBCol  className='col-md-4 offset-md-1'>
@@ -25,22 +25,23 @@ export class Header extends Component {
                         <MDBCol sm='6' className='col-md-6'>
                             <MDBCard className='bio'>
                                 <MDBCardBody>
-                                    <MDBCardTitle>Special title treatment</MDBCardTitle>
+                                     <h1 className="card-title">Yahya Albashar</h1>
                                     <MDBCardText>
-                                    With supporting text below as a natural lead-in to additional content.
+                                    Software developer, freelancer and coding instructor.
                                     </MDBCardText>
                                     <MDBCardText>
-                                    With supporting text below as a natural lead-in to additional content.
+                                    Tech stack:<b> Python, Django, Django rest-franework, html, JS and css.
+                                    Frontend libraries: Jquery, ReactJS.</b>
                                     </MDBCardText>
                                     <MDBCardText>
-                                    With supporting text below as a natural lead-in to additional content.
+                                     <ul>
+                                         <li>Instructor at <b><a href='https://www.facebook.com/ASAC.LTUC'>LTUC-ASAC Amman</a></b>-Jordan.</li>
+                                         <li>Teaching <a href='https://www.codefellows.org/'>codefellows</a> curriculum for software development.</li>
+                                         <li>Backend engineer and consultant at <a href="https://ahlifintech.com/"> Ahli-FinTech.</a></li>
+                                         <li>Full-stack web developer at <a href="https://rofancare.com"> Rofancare.</a></li>
+                                     </ul>
                                     </MDBCardText>
-                                    <MDBCardText>
-                                    With supporting text below as a natural lead-in to additional content.
-                                    </MDBCardText>
-                                    <MDBCardText>
-                                    With supporting text below as a natural lead-in to additional.
-                                    </MDBCardText>
+                                     <h3>Reach out on: <a href="https://github.com/yahyaalbashar">Github</a>,<a href="https://twitter.com/yahyaalbashar"> Twitter.</a></h3>
                                 </MDBCardBody>
                             </MDBCard>
                         </MDBCol>

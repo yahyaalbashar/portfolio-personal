@@ -10,9 +10,9 @@ export class ArticlesList extends Component {
                     {
                         this.articlesList.map(item=>{
                           return ( <Col  md={{ span: 6, offset: 3 }} className='mb-2 mt-2'>
-                            <Card>
+                            <Card className="article-card ">
                             <Card.Body><h1>This is some text within a card body.</h1></Card.Body>
-                            <Card.Footer><small>7/2/2021</small></Card.Footer>
+                            <Card.Footer className="card-footer-bg"><small>7/2/2021</small></Card.Footer>
                             </Card>
                             </Col>)
                         })

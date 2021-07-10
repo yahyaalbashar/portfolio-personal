@@ -1,3 +1,6 @@
+*{
+  font-family: 'Courier New', monospace;
+}
 .custom-secondary{
   background-color: #1894c5;
 }
@@ -7,23 +10,41 @@
 }
 
 .navy a{
-  color:#1894c5;
+  color:#3bc518;
   font-weight:bold;
+
 }
 .main{
-  background-color: #d3d6d8;
+  background-color:#b5b5b5;
 }
 .profile{
   display: block;
   max-width:612px;
-  max-height:370px;
+  max-height:375px;
   width: auto;
   height: auto;
+  border: #3bc518 solid !important;
 }
 
 .bio{
-  font-family: 'Courier New', monospace;
   background-color: #131521 !important;
   border: #3bc518 solid !important;
-  color:#3bc518
+  color:#3bc518;
+  text-align: start;
+}
+
+.article-card{
+  background-color: #131521 !important;
+  color:#3bc518;
+    border: #131521 solid !important;
+}
+.footer{
+  background-color: #131521 !important;
+  color:#3bc518 !important;
+  font-weight: bold;
+}
+.card-footer-bg{
+  background-color:#b5b5b5 !important;
+  color:#131521 !important;
+  font-weight: bold;
 }
